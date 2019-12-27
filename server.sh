@@ -1,8 +1,8 @@
-#!/usr/bin/bash
+as#!/usr/bin/bash
 #apt-get install git -y
-if [ -d $HOME/server ]
+if [ -d $HOME/server1 ]
 then
-	rm -rf $HOME/server
+	rm -rf $HOME/server1
 fi
 if [ -d $HOME/server ]
 then
@@ -12,8 +12,8 @@ if [ ! -e $PREFIX/bin/git ]
 then
         apt-get install git -y
 fi
-git clone https://github.com/CarZaGo/server.git
-cd server
+git clone https://github.com/CarZaGo/server1.git
+cd server1
 unzip server.zip
 cp version.txt server
 cd server
@@ -24,4 +24,4 @@ fi
 mv version.txt modules
 chmod +x setup.sh
 sh setup.sh
-rm -rf $HOME/server
+rm -rf $HOME/server1
