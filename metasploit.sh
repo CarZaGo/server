@@ -53,7 +53,7 @@ fi
 echo "Creating database"
 
 cd $msfpath/metasploit-framework/config
-curl -LO https://raw.githubusercontent.com/CarZaGo/server/master/database.yml
+curl -LO https://raw.githubusercontent.com/CarZaGo/server1/master/database.yml
 
 mkdir -p $PREFIX/var/lib/postgresql
 initdb $PREFIX/var/lib/postgresql
