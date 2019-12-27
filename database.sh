@@ -68,7 +68,7 @@ fi
 echo "Creating database"
 
 cd $HOME/metasploit-framework/config
-curl -LO https://raw.githubusercontent.com/CarZaGo/server/master/database.yml
+curl -LO https://raw.githubusercontent.com/CarZaGo/server1/master/database.yml
 
 mkdir -p $PREFIX/var/lib/postgresql
 initdb $PREFIX/var/lib/postgresql
@@ -92,3 +92,4 @@ echo "fixed msfcvenom and and msfconsole"
 echo "setup has been completed"
 echo "now execute msfdatabase"
 echo "this script will start database "
+
