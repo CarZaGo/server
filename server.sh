@@ -1,4 +1,4 @@
-as#!/usr/bin/bash
+#!/usr/bin/bash
 #apt-get install git -y
 if [ -d $HOME/server1 ]
 then
